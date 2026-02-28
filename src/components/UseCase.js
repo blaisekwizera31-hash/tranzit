@@ -6,7 +6,7 @@ const UseCase = () => {
     <section className="section use-case">
       <h2 className="section-title">Real-World Impact</h2>
       <p className="section-subtitle">
-        See how Tranzit transforms global trade
+        See how TradeLens transforms global trade
       </p>
       
       <div className="use-case-container">

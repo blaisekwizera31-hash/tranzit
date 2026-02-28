@@ -3,27 +3,53 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <div className="hero-grid">
-        <div className="hero-content">
+    <section id="top" className="hero">
+      <div className="section-inner hero-grid">
+        <div className="hero-content reveal">
+          <p className="hero-kicker">TradeLens</p>
           <h1 className="hero-title">
-            Transparent Trade.<br />
-            Trusted Transactions.<br />
-            Automated Compliance.
+            A global trust ecosystem for local-to-international trade.
           </h1>
           <p className="hero-subtitle">
-            Secure, blockchain-powered global trade infrastructure that eliminates fraud,
-            automates payments, and builds trust across borders.
+            TradeLens is designed to stop fraud, reduce corruption, stabilize
+            payments, and connect rural producers directly with global buyers through
+            AI risk intelligence and blockchain trust infrastructure.
           </p>
           <div className="hero-buttons">
-            <a href="#features" className="btn btn-secondary">Learn More</a>
+            <a href="#how-it-works" className="btn btn-primary">Explore Full Flow</a>
+            <a href="#team" className="btn btn-secondary">Connect With Team</a>
+          </div>
+          <div className="hero-metrics">
+            <article className="metric-card card">
+              <strong>4 Risk Layers</strong>
+              <span>AI radar, corruption heatmap, smart contracts, trust receipts.</span>
+            </article>
+            <article className="metric-card card">
+              <strong>Local + Global</strong>
+              <span>Rural cooperatives, NGOs, SMEs, and international buyers in one network.</span>
+            </article>
           </div>
         </div>
-        <div className="hero-image">
-          <img 
-            src="/bloc.png" 
-            alt="Blockchain network"
-          />
+        <div className="hero-image reveal">
+          <div className="hero-panel">
+            <p className="hero-panel-label">Live Trust Transaction</p>
+            <h3>Cooperative Coffee Lot #NEX-208 / Kampala to Hamburg</h3>
+            <ul>
+              <li>
+                <span>AI risk scan</span>
+                <strong>Low Risk</strong>
+              </li>
+              <li>
+                <span>Currency stabilization</span>
+                <strong>Protected</strong>
+              </li>
+              <li>
+                <span>Trust receipt</span>
+                <strong>Issued On-Chain</strong>
+              </li>
+            </ul>
+            <img src="/bloc.png" alt="Blockchain network visualization" />
+          </div>
         </div>
       </div>
     </section>

@@ -5,47 +5,67 @@ const HowItWorks = () => {
   const steps = [
     {
       number: '01',
-      title: 'Deal Creation',
-      description: 'Buyer and seller define terms: price, delivery date, product details, and conditions.'
+      title: 'Seller Onboarding',
+      description: 'Rural sellers register with mobile money identity or cooperative verification to create a trusted digital profile.'
     },
     {
       number: '02',
-      title: 'Smart Contract Generation',
-      description: 'A blockchain smart contract is automatically created with all agreed terms.'
+      title: 'Product Listing',
+      description: 'Farmers, artisans, and SMEs publish products with quality details, endorsements, and traceable credibility signals.'
     },
     {
       number: '03',
-      title: 'Payment Lock',
-      description: 'Funds are securely locked in the smart contract, protecting both parties.'
+      title: 'Buyer Discovery',
+      description: 'International buyers evaluate offers through trust profiles, transparency dashboards, and historical trust receipts.'
     },
     {
       number: '04',
-      title: 'Shipment & Logistics',
-      description: 'Logistics partner confirms delivery and updates tracking information.'
+      title: 'Order and Risk Screening',
+      description: 'Before commitment, the AI Risk Radar and corruption heatmap assess counterparties, routes, and transaction anomalies.'
     },
     {
       number: '05',
-      title: 'Payment Release',
-      description: 'Smart contract automatically releases funds upon delivery confirmation.'
+      title: 'Payment Stabilization',
+      description: 'International payment is converted into stable value, shielding local sellers from inflation and sudden currency loss.'
+    },
+    {
+      number: '06',
+      title: 'Smart Contract Lock',
+      description: 'Price, delivery obligations, and release conditions are committed on-chain so no party can rewrite terms after agreement.'
+    },
+    {
+      number: '07',
+      title: 'Delivery Confirmation',
+      description: 'Cooperatives and logistics partners complete fulfillment, and buyer confirmation triggers deterministic settlement.'
+    },
+    {
+      number: '08',
+      title: 'Community Transparency',
+      description: 'Dashboards expose fund movement and impact data for cooperatives and NGOs, improving accountability at grassroots level.'
     }
   ];
 
   return (
     <section id="how-it-works" className="section how-it-works">
-      <h2 className="section-title">How It Works</h2>
-      <p className="section-subtitle">
-        Five simple steps to secure, transparent trade
-      </p>
-      
-      <div className="steps-container">
-        {steps.map((step, index) => (
-          <div key={index} className="step">
-            <div className="step-number">{step.number}</div>
-            <h3 className="step-title">{step.title}</h3>
-            <p className="step-description">{step.description}</p>
-            {index < steps.length - 1 && <div className="step-connector"></div>}
-          </div>
-        ))}
+      <div className="section-inner">
+        <div className="section-head">
+          <h2 className="section-title">Local to international: one transparent transaction flow.</h2>
+          <p className="section-subtitle">
+            Every stage, from onboarding to payout, produces verifiable evidence so
+            sellers, buyers, and communities can trust the same source of truth.
+          </p>
+        </div>
+
+        <div className="steps-container">
+          {steps.map((step, index) => (
+            <article key={step.number} className="step card">
+              <div className="step-number">{step.number}</div>
+              <h3 className="step-title">{step.title}</h3>
+              <p className="step-description">{step.description}</p>
+              {index < steps.length - 1 && <div className="step-connector"></div>}
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

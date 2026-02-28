@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import Features from './components/Features';
+import TeamConnect from './components/TeamConnect';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <HowItWorks />
       <Features />
+      <TeamConnect />
       <Footer />
     </div>
   );

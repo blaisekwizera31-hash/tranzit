@@ -49,7 +49,7 @@ const UserRoles = () => {
     <section className="section user-roles">
       <h2 className="section-title">Built for Every Stakeholder</h2>
       <p className="section-subtitle">
-        Tranzit serves all participants in the global trade ecosystem
+        TradeLens serves all participants in the global trade ecosystem
       </p>
       
       <div className="roles-grid">
