@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <img src="/logo.png" alt="Tranzit Logo" className="logo-icon" />
+          <img src="/logo.png" alt="Tranzit Logo" className="logo-icon"/>
           <span className="logo-text">Tranzit</span>
         </div>
         
