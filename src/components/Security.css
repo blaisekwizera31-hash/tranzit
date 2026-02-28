@@ -1,0 +1,31 @@
+.security {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.security-card {
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.security-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.security-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.security-card p {
+  color: #a0aec0;
+  line-height: 1.6;
+}

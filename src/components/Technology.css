@@ -1,0 +1,57 @@
+.technology {
+  background: linear-gradient(180deg, rgba(10, 14, 39, 1) 0%, rgba(26, 31, 58, 1) 100%);
+}
+
+.tech-architecture {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tech-layer {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.tech-layer.highlight {
+  border: 2px solid rgba(102, 126, 234, 0.5);
+  background: rgba(102, 126, 234, 0.1);
+}
+
+.layer-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.layer-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  color: #a0aec0;
+  font-size: 1rem;
+}
+
+.tech-arrow {
+  text-align: center;
+  font-size: 2rem;
+  color: #667eea;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .layer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,44 @@
+.user-roles {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.role-card {
+  text-align: center;
+}
+
+.role-icon {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.role-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.role-features {
+  list-style: none;
+  text-align: left;
+}
+
+.role-features li {
+  color: #a0aec0;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check-icon {
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
