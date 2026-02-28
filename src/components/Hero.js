@@ -48,7 +48,7 @@ const Hero = () => {
                 <strong>Issued On-Chain</strong>
               </li>
             </ul>
-            <img src="/bloc.png" alt="Blockchain network visualization" />
+            <img src="/im.png" alt="Trade intelligence dashboard preview" />
           </div>
         </div>
       </div>

@@ -14,17 +14,17 @@ const TeamConnect = () => {
     {
       role: 'Partnership Desk',
       details: 'For cooperatives, NGOs, and export alliances building local onboarding channels.',
-      email: 'partnerships@tradelens.org'
+    
     },
     {
       role: 'Buyer Integration Team',
       details: 'For international buyers seeking verified sourcing and transparent settlement workflows.',
-      email: 'buyers@tradelens.org'
+ 
     },
     {
       role: 'Compliance and Trust Lab',
       details: 'For anti-fraud institutions, auditors, and public transparency initiatives.',
-      email: 'compliance@tradelens.org'
+    
     }
   ];
 
@@ -55,8 +55,8 @@ const TeamConnect = () => {
             Share your region, trade sector, and scale goals. The team will design a
             pilot path covering trust onboarding, risk controls, and settlement setup.
           </p>
-          <a href="blaisekwizera31@gmail.com" className="btn btn-primary">
-            Schedule Team Session
+          <a href="https://www.instagram.com/blaiseikb/" className="btn btn-primary">
+            Schedule a talk.
           </a>
         </div>
 
